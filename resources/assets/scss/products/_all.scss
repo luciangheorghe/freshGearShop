@@ -3,14 +3,17 @@
     display: grid;
     grid-template-columns: 25% 1fr;
     height: 100vh;
+    overflow: hidden;
     .filter-section{
         background: grey;
     }
     .all-products-grid{
+        overflow-y: scroll;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
         position: relative;
+        padding: 0 20px;
         .product-wrap{
             text-align: center;
             .title{
