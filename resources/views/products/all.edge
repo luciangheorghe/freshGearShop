@@ -34,12 +34,12 @@ FreshGear | All Products
     </div>
 
     <div class="filter">
-        <input type="checkbox" id="gender-options" class="toggle" checked />
+        <input type="checkbox" id="price-options" class="toggle" checked />
         <label for="price-options" class="title">Price</label>
         <div class="content">
           <div class="price">
-            <div class="option">Male</div>
-            <div class="option">Female</div>
+            <input type="text" name="min" placeholder="min" class="option">
+            <input type="text" name="max" placeholder="max" class="option">
           </div>
         </div>
       </div>
@@ -64,13 +64,14 @@ FreshGear | All Products
         </div>
       </div>
     </div>
+    <button>Filter</button>
   </div>
 <div class="all-products-grid">
   @each(product in products)
     <div class="product-wrap">
         <div class="product">
           <div class="circle">
-            <img src="img/products/adidas-yeezy-boost-white.png" alt="">
+            <img src="/img/products/adidas-yeezy-boost-white.png" alt="">
           </div>
         </div>
         <div class="title">Boost 350 White</div>
