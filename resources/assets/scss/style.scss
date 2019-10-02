@@ -3,6 +3,7 @@
 @import "pages/home";
 @import "pages/about";
 @import "products/all";
+@import "account/login_register";
 
 
 
@@ -211,6 +212,6 @@ header{
 
 .box-container{
   background: white;
-  border-radius: 10px;
+  border-radius: 3px;
   padding: 80px 20px;
 }
