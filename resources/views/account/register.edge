@@ -1,15 +1,25 @@
 @layout('layouts/main')
 
 @section('title')
-FreshGear | Top Kicks
+FreshGear | Login
 @endsection
 
 @section('content')
-<section class="content-area about-page">
+<section class="content-area login_register-page">
     <div class="container">
         <div class="box-container">
-                <h1>About</h1>
-                <p>Lorem ipsum dolor amet unicorn la croix typewriter try-hard listicle prism, retro tumeric cred kitsch affogato hoodie brunch wayfarers. Cardigan activated charcoal enamel pin leggings gochujang, pork belly affogato waistcoat kinfolk taxidermy pitchfork celiac. Meditation hot chicken craft beer kogi hell of blog selfies umami +1 gentrify salvia distillery church-key YOLO. Tacos chartreuse four loko, man bun +1 church-key cred vice locavore 3 wolf moon distillery cardigan ethical tumblr. Scenester pour-over post-ironic skateboard ugh wayfarers literally.</p>
+               <h2>Register</h2>
+               <div class="login-grid register">
+                       <form action="" method="POST">
+                           <input type="email" name="email" placeholder="Email">
+                           <input type="password" name="password" placeholder="Password">
+                           <button type="submit">Log In</button>
+                       </form>
+                       <div class="line"></div>
+               </div>
+               <div class="footer">
+                   Aready have an account? <a href="/login">Log In</a>
+               </div>
         </div>
     </div>
 </section>
