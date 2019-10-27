@@ -9,17 +9,6 @@
       overflow-x: hidden;
       overflow-y: scroll;
       padding: 0 20px 200px;
-      button{
-        padding: 1rem;
-        display: block;
-        color: black;
-        font-weight: 700;
-        margin-bottom: 1rem;
-        cursor: pointer;
-        width: 100%;
-        font-weight: 700;
-        border: none;
-      }
         .toggle{
           display: none;
           &:checked{
@@ -69,41 +58,6 @@
         .content{
           max-height: 0;
           overflow: hidden;
-          .gender{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
-            list-style: none;
-            text-align: center;
-          }
-          .brand{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-gap: 10px;
-            list-style: none;
-            text-align: center;
-          }
-          .price{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
-            list-style: none;
-            text-align: center;
-            font-size: 1.2rem;
-            input{
-              font-size: .9rem;
-            }
-            .option:hover{
-              background: #ecf0f3 !important;
-            }
-          }
-          .size{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 10px;
-            list-style: none;
-            text-align: center;
-          }
           .option{
             border: 1px solid #fff;
             padding: 10px;
